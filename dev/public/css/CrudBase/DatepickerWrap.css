@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+
+.ui-datepicker-year option {
+	color:#706cfb;
+}
+
+.ui-datepicker-year{
+	color:#4666ff;
+}
+
+.ympicker_toggle_btn{
+	margin-top:6px;
+	border:0px;
+	width:15px;
+	height:15px;
+	background-image: url('../img/icon/detail_toggle_btn_off.png') ;"
+}
+
+.ympicker_toggle_btn:hover{
+    border:0px;
+	width:15px;
+	height:15px;
+	background-image: url('../img/icon/detail_toggle_btn_on.png') ;"
+}

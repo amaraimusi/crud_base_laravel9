@@ -1,0 +1,329 @@
+/* 
+* @version 1.2.0
+* @date 2015-1-1 | 2019-1-25
+*/
+@CHARSET "UTF-8";
+
+body {
+	padding-bottom: 40px;
+}
+
+.container {width: auto;}
+.sidebar-nav {
+	padding: 9px 0;
+}
+
+
+.top_menu_pull ul{
+	display:none;
+	position:absolute;
+	width:180px;
+	padding-bottom:10px;
+	background-color:#f8f8f8;
+	
+	z-index:2;
+}
+.top_menu_pull ul a{
+
+	color:#8489ae;
+}
+		
+
+aside{
+	font-size:0.7em;
+	color:#6f6b81;
+}
+
+
+.tbl2{
+	border-collapse:collapse;
+	border-color:#b7badb;
+	border: 1px #bdbfdf solid;
+}
+.tbl2 thead{
+	background-color:#cccee6;
+}
+.tbl2 tbody{
+	background-color:#f5f9fe;
+}
+.tbl2 th{
+	padding:5px;
+	border: 1px #bdbfdf dotted;
+	color:#393656;
+}
+.tbl2 tr:nth-child(even){
+	background-color:white;
+}
+.tbl2 td{
+	padding:5px;
+	border: 1px #bdbfdf dotted;
+	color:#34353f;
+}
+
+.annot{
+	color:#df3952;
+	font-style: italic;
+}
+
+#help_x{
+	border:solid 3px #c69dd9;
+	padding:10px;
+	
+
+}
+#help_x h2{
+	color:#c69dd9;
+}
+.help_x{
+	color:#333839;
+	font-size:14px;
+	line-height:2em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", "郢晏�ｵﾎ帷ｹｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺� Pro W3", "郢晢ｽ｡郢ｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ", Meiryo, "�ｿｽ�ｽｼ�ｽｭ�ｿｽ�ｽｼ�ｽｳ �ｿｽ�ｽｼ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ郢ｧ�ｽｯ", Helvetica, Arial, Verdana, sans-serif
+	
+}
+.help_x h3{
+	color:#dd5044;
+}
+
+.help_x h4{
+	margin-top:30px;
+	color:#9c56be;
+}
+
+
+.help_x p{
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+
+#help_x_div1{
+	margin-bottom:20px;
+}
+#help_x_div1 a{
+	margin-bottom:5px;
+}
+
+.pnl_head1{
+	width:40%;
+	display:inline-block;
+}
+
+.pnl_head2{
+	width:40%;
+	display:inline-block;
+}
+
+.pnl_head3{
+	width:15%;
+	margin-left:auto;
+	display:inline-block;
+	text-align:right;
+}
+
+.line-left{
+	display:inline-block;
+	width:30%;
+	margin-right:auto;
+}
+
+
+.line-middle{
+	display:inline-block;
+	width:39%;
+	height:10px;
+}
+
+.line-right{
+	display:inline-block;
+	width:30%;
+	text-align:right;
+}
+
+
+.btn-circle {
+width: 30px;
+height: 30px;
+text-align: center;
+padding: 6px 0;
+font-size: 12px;
+line-height: 1.428571429;
+border-radius: 15px;
+}
+.btn-circle.btn-lg {
+width: 50px;
+height: 50px;
+padding: 10px 16px;
+font-size: 18px;
+line-height: 1.33;
+border-radius: 25px;
+}
+.btn-circle.btn-xl {
+width: 70px;
+height: 70px;
+padding: 10px 16px;
+font-size: 24px;
+line-height: 1.33;
+border-radius: 35px;
+}
+
+.error-message{
+	color:#de5347;
+}
+
+
+.tbl_sp{
+	display:block;
+	width:100%;
+}
+.tbl_sp thead{
+	display:none;
+}
+.tbl_sp tbody{
+	display:block;
+	width:100%;
+}
+.tbl_sp tr{
+	display:block;
+	width:100%;
+}
+.tbl_sp td{
+	display:block;
+	width:100%;
+}
+.tbl_sp  td:last-child{
+	padding-bottom:6px;
+}
+.tbl_sp input[type="text"]{
+	width:100%;
+}
+.tbl_sp textarea{
+	width:100%;
+}
+
+/* 郢晢ｿｽ郢晢ｽｼ郢晄じﾎ晁棔迚呻ｽｽ�ｽ｢ */
+.table_transform{
+	border:none;
+	width:100%;
+}
+.table_transform thead{
+	display:none;
+}
+.table_transform tbody tr{
+	display:block;
+	border-bottom:none;
+}
+.table_transform tbody tr td{
+	display:block;
+	border:none;
+}
+
+.crud_base_form{
+	border:solid #3174af 2px;
+	background-color:#f2f2f2;
+	padding:5px;
+}
+.cbf_inp_wrap{
+	display:inline-block;
+	vertical-align: top;
+	margin-bottom:10px;
+}
+.cbf_inp_wrap_long{
+	display:inline-block;
+	margin-bottom:10px;
+	width:100%;
+}
+.cbf_inp_label{
+	display:inline-block;
+	min-width:50px;
+}
+.cbf_inp_label_long{
+	
+}
+
+.cbf_inp{
+	display:inline-block;
+	margin-right:5px;
+}
+.cbf_input{
+	display:inline-block;
+	margin-right:60px;
+}
+.cbf_inp_wrap_long .cbf_input{
+	width:100%;
+	display:inline-block;
+	margin-right:0px;
+}
+.cbf_inp_wrap_long .cbf_input input[type='text']{
+	width:100%;
+}
+.cbf_inp_wrap_long .cbf_input textarea{
+	width:100%;
+}
+
+.hash_tag0{
+	display:inline-block;
+	padding:2px 4px;
+	margin-right:6px;
+}
+
+.hash_tag1{
+	display:inline-block;
+	padding:2px 4px;
+	margin-right:4px;
+	background-color:#4a8af4;
+	color:white;
+	border-radius:4px;
+}
+
+
+.cb_breadcrumbs{
+	display:inline-block;
+}
+.cb_kj_main{
+	margin-left:20px;
+	display:inline-block;
+}
+.kj_div{
+	display:inline-block;
+	width:auto;
+	height:auto;
+	margin-right:20px;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+.cb_kj_detail{
+	background-color:#eeeeee;
+	border-radius:5px;
+	padding:10px;
+	
+}
+#cb_func_btns{
+	margin-left:20px;
+	display:inline-block;
+}
+.hr_purple{
+	border-top: solid 1px #9954bb;
+}
+#clm_cbs_rap{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border-top: solid 1px #9954bb;
+	padding: 4px;
+}
+#clm_cbs_rap p{
+	color:#9954bb;
+}
+
+.console{
+	background-color:#252628;
+	color:#ffffff;
+	padding:4px;
+	border-radius:4px;
+}
+
+.yohaku{
+	height:300px;
+}
+
+

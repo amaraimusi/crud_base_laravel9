@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+.calendar_view_k{
+	border-collapse:collapse;
+	border-color:#b7badb;
+	border: 1px #bdbfdf solid;
+}
+.calendar_view_k thead{
+	background-color:#cccee6;
+}
+.calendar_view_k tbody{
+	background-color:#f5f9fe;
+}
+.calendar_view_k th{
+	padding:5px;
+	border: 1px #bdbfdf dotted;
+}
+.calendar_view_k td{
+	padding:5px;
+	border: 1px #bdbfdf dotted;
+	color:#34353f;
+}
+
+.cvk_sun{
+	color:#dd5044;
+}
+
+.cvk_sat{
+	color:#4b8bf4;
+}
+
+.cvk_out_this_month{
+	color:#bababa;
+}
+
+
+
+.cvk_cell_div1{
+	display:inline-block;
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+.cvk_cell_div2{
+	display:inline-block;
+	margin-left:1em;
+	font-size:0.8em;
+	color:#808080;
+}

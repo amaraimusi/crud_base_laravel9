@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+#crud_base_bulk_add #cbba_div{
+	width:100%;
+	padding:5px;
+	border:solid 4px SteelBlue;
+}
+
+#crud_base_bulk_add #cbba_head{
+	display:inline-block;
+	width:100%;
+}
+
+#crud_base_bulk_add h4{
+	color:SteelBlue;
+	float:left;
+	margin:0px
+}
+
+#crud_base_bulk_add #cbba_close_btn_w{
+	float:right;
+}
+
+#crud_base_bulk_add #cbba_ta{
+	width:100%;
+}
+
+#crud_base_bulk_add .same_apply_w{
+	display:inline-block;
+	margin-right:1rem;
+}
+
+#crud_base_bulk_add .cbba_sort_no_label{
+	font-weight: normal;
+}
+
+#crud_base_bulk_add #cbba_preview_div2{
+	max-height:20rem;
+	overflow:scroll;
+}

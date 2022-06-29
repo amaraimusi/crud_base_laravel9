@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+
+.csh_cb_div{
+	float:left;
+	min-width:160px;
+	margin-right:10px;
+}
+
+.csh_func_btn{
+	float:left;
+	margin-right:4px;
+}

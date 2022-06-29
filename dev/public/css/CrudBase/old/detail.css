@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+
+.labels2{
+	float:left;
+	width:100px;
+	margin-right:16px;
+}
+.inputs{
+	float:left;
+}
+
+.dates{
+	color:#808080;
+}
+
+.d_flg_true{
+	color:#23d6e4;
+}
+
+.d_flg_false{
+	color:#b4b4b4;
+}
+
+#no_data{
+	font-size:2em;
+	color:#e6413a;
+	padding:10px;
+}
+
+/* 横並びリスト */
+.ul_side_by_side{
+	padding-left: 0px;
+	list-style-type: none;
+}
+.ul_side_by_side li{
+	float:left;
+	margin-right: 5px;
+}

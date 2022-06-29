@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.req_batch_success{
+	display:inline-block;
+}
+.req_batch_console{
+	width:500px;
+	paddng:10px;
+	border-radius:5px;
+}
+.req_batch_console div{
+	display:inline-block;
+	width:150px;
+}

@@ -1,0 +1,46 @@
+.fuk_label{
+	display:'inline-block';
+	background-color:#d0dfef;
+	width:100%;
+	height:100%;
+	border:solid 1px #a8c5e1;
+}
+
+.fuk .fuk_msg {
+	display:inline-block;
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+
+.fuk .fuk_file_unit{
+	float:left;
+	padding:0px;
+	font-size:0.8em;
+	font-weight:normal;
+}
+
+.fuk .fuk_file_unit label{
+	display:inline-block;
+	width:70px;
+	vertical-align:top;
+}
+
+.fuk .fuk_file_unit val{
+	display:inline-block;
+	padding-left:5px;
+	max-width:300px;
+	height:auto;
+}
+
+.fuk .fuk_clear_btn_w{
+	clear:both;
+	margin-top:0px;
+	margin-left:5px;
+	margin-bottom:5px;
+	display:none;
+}
+
+.fuk .fuk_file_unit .fuk_err_msg{
+	color:red;
+}

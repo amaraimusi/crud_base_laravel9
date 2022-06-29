@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+.message_div{
+	white-space:pre-wrap; 
+	word-wrap:break-word;
+	width:100%;
+	font-size:1.2em
+}
+
+.entity_box1{
+	border-top:solid 1px #899298;
+	padding-top:12px;
+}
+
+#send_mail_debug_mail_text{
+	overflow: scroll;
+	height:200px;
+	white-space:pre-wrap; 
+	word-wrap:break-word;
+	background-color:#edafa0;
+	padding:40px;
+}
+
+.eval_btn_base {
+	width: 1.5em;
+	height: 1.5em;
+	display: inline-block;
+	mask: no-repeat center/70%;
+	-webkit-mask: no-repeat center/70%;
+}
+
+.eval_btn_color_unpushed{
+	background: #a5b1a7;
+}
+.eval_btn_color_pushed{
+	background: #269745;
+}
+
+
+.eval_user_count_btn{
+	background-color:white;
+	padding:1px;
+	border:solid 1px #37c0f8;
+	border-radius:2px;
+	color:#37c0f8;
+	min-width:2.4em;
+}
+.eval_user_count_btn:hover{
+	border-color:orange;
+	color:orange;
+}
+
+.eval_user_count_btn:focus{
+	border-color:#8a99b0;
+	color:#8a99b0;
+	outline: 1px solid #8a99b0;
+}
+
+.msg_board_eval_div{
+	display:inline-block;
+}
+
+.eval_user_a1{
+	margin-top:0.2em;
+	margin-bottom:1em;
+}
+
+.eval_user_a2{
+	display:inline-block;
+	margin-right:1em;
+	padding:1px 4px;
+	background-color:#6230ad;
+	color:white;
+	border-radius:4px;
+}
+
+
+

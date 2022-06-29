@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+.nouislider_rap{
+	float:left;
+	margin-right:20px;
+	margin-top:-16px;
+	width:250px;
+}
+
+.nusr_label{
+	font-size:0.8em;
+	color:#524949;
+	
+}
+
+.nusr_preview{
+	color:#2f8882;
+}
+
+.nusr_detail{
+	display:none;
+}
+
+
+.nusr_toggle_btn{
+	margin-top:6px;
+	border:0px;
+	width:15px;
+	height:15px;
+	background-image: url('../../img/icon/detail_toggle_btn_off.png') ;"
+}
+
+.nusr_toggle_btn:hover{
+    border:0px;
+	width:15px;
+	height:15px;
+	background-image: url('../../img/icon/detail_toggle_btn_on.png') ;"
+}
